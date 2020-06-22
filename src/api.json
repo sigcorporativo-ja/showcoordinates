@@ -1,0 +1,39 @@
+{
+  "url": {
+    "name": "showcoordinates",
+    "separator": "*"
+  },
+  "constructor": "M.plugin.ShowCoordinates",
+  "parameters": [{
+    "type": "object",
+    "properties": [{
+      "type": "enum",
+      "name": "position",
+      "possibleValues": [
+        "TR",
+        "TL",
+        "BL",
+        "BR"
+      ],
+      "position": 0
+    }]
+  }],
+  "files": {
+    "ol": {
+      "scripts": ["showcoordinates.ol.min.js"],
+      "styles": ["showcoordinates.ol.min.css"]
+    }
+  },
+  "metadata": {
+    "name": "ShowCoordinates",
+    "description": "Muestra coordenadas seleccionadas",
+    "text": "Este plugin te permite ver la coordenadas seleccionadas en el mapa.",
+    "version": "1.0.0",
+    "date": "Diciembre, 2019",
+    "author": "",
+    "org": "Instituto de Estadística y Cartografía",
+    "tags": "mapea,plugin",
+    "icon": "./facade/assets/icons/icons.svg",
+    "centralized": true
+  }
+}
