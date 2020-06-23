@@ -29,9 +29,9 @@
     "description": "Muestra coordenadas seleccionadas",
     "text": "Este plugin te permite ver la coordenadas seleccionadas en el mapa.",
     "version": "1.0.0",
-    "date": "Diciembre, 2019",
+    "date": "Junio, 2020",
     "author": "",
-    "org": "Instituto de Estadística y Cartografía",
+    "org": "Consejería de Hacienda, Industria y Energía. Junta de Andalucía.",
     "tags": "mapea,plugin",
     "icon": "./facade/assets/icons/icons.svg",
     "centralized": true
